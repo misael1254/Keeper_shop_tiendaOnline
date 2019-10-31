@@ -1,0 +1,153 @@
+.cuerpawer{
+background-color: #E8DFE8;
+}
+.divsito{
+	margin-top:none;
+	margin-right:none;
+	margin-bottom :none;
+	padding: none;
+	width: 100%;
+}
+.menu{
+	border-style: groove;
+	border-radius: 4px;
+	margin-left: 5px;
+	width: 300px;
+	text-align: center;
+}
+
+a{
+	color: #F3F3F3;
+}
+.tabla{
+	border-style: ridge;
+	align-self: center;
+	border-radius: 8px;
+	width: 100%;
+}
+.titulo{
+	height: 120px;
+}
+.boton_menu{
+	background-color: #000000;
+	color: #A8A8A8;
+	border-radius: 4px;
+	width: 100%;
+}
+.cuerpo{
+	background-color: #18171C;
+	min-height: 500px;
+	width: 100%
+}
+.fila{
+	padding-top:5px;
+}
+/*input:valid, textarea:valid {
+  background:green;
+}
+input:invalid, textarea:invalid {
+  background:red;
+}*/
+
+.titulos_tabla{
+  background-color: #007bff;
+}
+.tabla_producto{
+	background-color: #333331;
+	margin-bottom: 8px;
+	margin-left: 15px;
+	margin-right: 1px;
+	width: 15%;
+	height: 15%;
+	display: inline-block;
+	border: solid;
+	border-color: #ffffff;
+	border-collapse: separate;
+	box-sizing: border-box;
+}
+.fila_nom_pro{
+	height: 80px;
+	max-height: 80px;
+	width: 100%;
+}
+.titulo_producto{
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-rendering: optimizelegibility;
+  padding: 10px;
+  width: 100%;
+}
+.div_imagen_producto{
+	border:solid; 
+	border-radius: 10px;
+	border-color: #FFFFFF;
+	width: 100%;
+}
+.imagen_producto{
+	width: 100%;
+	height: 100%
+}
+
+.precio{
+	color: #FFFFFF;
+}
+@media (max-width: 1200px) {
+	.tabla_producto{
+		width: 18%
+	}
+}
+@media (max-width: 1093px) {
+	.tabla_producto{
+		width: 23%
+	}
+}
+@media (max-width: 1000px) {
+	.tabla_producto{
+		width: 31%
+	}
+}
+@media (max-width: 980px) {
+	.tabla_producto{
+		width: 47%
+	}
+}
+@media (max-width: 690px) {
+	.tabla_producto{
+		width: 95%;
+	}
+}
+
+.tabla_especifica{
+	width: 100%; 
+	display: inline-block;
+}
+
+.tabla_especificaciones{
+	width: 100%; 
+	border:solid;
+	display: inline-block;
+
+}
+.caja1{
+	width: 40%; 
+	display: inline-block;
+	margin-left: 8%;
+	box-sizing: border-box;
+}
+.caja2{
+	width: 40%; 
+	display: inline-block;
+	margin-left: 3%;
+	box-sizing: border-box;
+}
+.btn_a{
+	border-top-right-radius: 10%;
+	border-bottom-right-radius: 10%;
+}
+.btn_d{
+	border-top-left-radius: 10%;
+	border-bottom-left-radius: 10%;
+}
+
